@@ -1,0 +1,89 @@
+
+fieldset.input-fieldset{
+    border: 1px solid silver;
+    padding: 8px;    
+    border-radius: 4px;
+    display: flex;
+    padding: 0;
+    position: relative;
+    align-items: center;
+
+}
+
+fieldset.input-fieldset-forms{
+    border: 1px solid silver;
+    padding: 8px;    
+    border-radius: 4px;
+    display: flex;
+    padding: 0;
+    position: relative;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+fieldset.input-fieldset-forms.ghost{
+    border: none;
+}
+
+fieldset.input-fieldset legend,
+fieldset.input-fieldset-forms legend{
+    font-size: 14px;
+    width: auto;
+    margin: 0;
+}
+
+fieldset.input-fieldset-forms select,
+fieldset.input-fieldset-forms input{
+    margin-bottom: 8px;
+    border: none;
+}
+
+fieldset.input-fieldset-forms select:focus,
+fieldset.input-fieldset-forms input:focus{
+    box-shadow: none;
+}
+
+
+fieldset.input-fieldset input{
+    position: absolute;
+    top: -10px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+}
+
+fieldset.input-fieldset select{
+    position: absolute;
+    top: -10px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 13px;
+}
+
+fieldset.input-fieldset input::placeholder{
+    font-size: 13px;
+}
+
+fieldset.input-fieldset input:focus{
+    box-shadow: none;
+    background-color: transparent;
+}
+
+fieldset.input-fieldset button{
+    margin-left: auto;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 2;
+    margin-right: 5px;
+}
+
+.input-fieldset-forms .custom-radio label{
+    font-size: 14px;
+}
